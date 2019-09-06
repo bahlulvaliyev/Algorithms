@@ -2,7 +2,7 @@ var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var x = 4,
   i = 0,
   j = a.length;
- 
+
 while (i < j) {
   var m = Math.floor((i + j) / 2);
   if (x > a[m]) {
@@ -39,7 +39,3 @@ function binarySearch(arr, search) {
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var sArr = [5, 6, 3, 4];
 console.log(binarySearch(4));
-
-for (i = 0; i < sArr.length; i++) {
-  console.log(binarySearch(arr, sArr[i]));
-}
